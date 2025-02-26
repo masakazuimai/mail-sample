@@ -113,22 +113,3 @@ textarea.form-control {
   margin: 20px 0;
   text-align: center;
 }
-
-.inline-group {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
-
-.inline-group label {
-  margin-left: 10px;
-  margin-right: 20px;
-}
-
-.color-preview {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #000;
-  margin-left: 10px;
-}
