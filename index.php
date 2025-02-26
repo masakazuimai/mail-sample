@@ -12,6 +12,26 @@ $form_data = isset($_SESSION['form_data']) ? $_SESSION['form_data'] : [];
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="contact.css">
   <title>お問い合わせフォーム</title>
+  <style>
+  .inline-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .inline-group label {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .color-preview {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    margin-left: 10px;
+  }
+  </style>
   <script>
   function updateColorPreview() {
     var colorInput = document.getElementById('color');
