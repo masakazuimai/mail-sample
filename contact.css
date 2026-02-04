@@ -1,0 +1,115 @@
+body {
+  background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* 上から開始するように変更 */
+  min-height: 100vh; /* 最小高さを設定 */
+  margin: 0;
+  padding: 20px; /* ページの内側に余白を追加 */
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  background: #f5f5f5;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* 下部に余白を追加 */
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-header h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group .text-danger {
+  color: #dc3545;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.form-footer {
+  text-align: center;
+}
+
+.btn-submit {
+  background: linear-gradient(270deg, #3bade3 0%, #576fe6 25%, #9844b7 51%, #ff357f 100%);
+  background-position: 1% 50%;
+  background-size: 200% auto;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.btn-submit:hover {
+  background-position: 99% 50%;
+}
+
+.btn-back {
+  background: #ccc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.btn-back:hover {
+  background: #bbb;
+}
+
+.thank-you-message {
+  font-size: 1.25rem;
+  margin: 20px 0;
+  text-align: center;
+}
