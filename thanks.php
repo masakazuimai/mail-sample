@@ -119,7 +119,7 @@ session_destroy();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="contact.css">
-    <title>送信完了</title>
+    <title>【サンプル】送信完了</title>
 </head>
 
 <body>
@@ -130,7 +130,7 @@ session_destroy();
             <p>お問い合わせいただきありがとうございます。</p>
             <p>担当者よりご連絡いたしますので、しばらくお待ちください。</p>
             <?php else: ?>
-            <p>申し訳ありませんが、メールの送信に失敗しました。</p>
+            <p>申し訳ありませんが、サンプルフォームの為送信に失敗しました。</p>
             <p>再度お試しいただくか、別の方法でご連絡ください。</p>
             <?php endif; ?>
 

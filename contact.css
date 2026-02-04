@@ -3,11 +3,11 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
   display: flex;
-  justify-content: center;
-  align-items: flex-start; /* 上から開始するように変更 */
-  min-height: 100vh; /* 最小高さを設定 */
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
   margin: 0;
-  padding: 20px; /* ページの内側に余白を追加 */
+  padding: 20px;
 }
 
 .container {
@@ -112,4 +112,12 @@ textarea.form-control {
   font-size: 1.25rem;
   margin: 20px 0;
   text-align: center;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 0.875rem;
 }

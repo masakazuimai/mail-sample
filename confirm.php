@@ -52,7 +52,7 @@ $topics_options = [
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="contact.css">
-    <title>確認画面</title>
+    <title>【サンプル】確認画面</title>
 </head>
 
 <body>
