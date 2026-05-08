@@ -175,18 +175,18 @@ $form_data = isset($_SESSION['form_data']) ? $_SESSION['form_data'] : [];
                 </div>
             </form>
         </div>
-    </div>
-    <div style="text-align:center; margin:24px auto;">
-        <!-- footer-top -->
-        <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4871781946658288"
-            data-ad-slot="7493033745"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <div style="text-align:center; margin:24px 0 0;">
+            <!-- footer-top -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-4871781946658288"
+                data-ad-slot="7493033745"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
     </div>
     <footer>
         <p>&copy; <?php echo date('Y'); ?> CodeQuest.work</p>
