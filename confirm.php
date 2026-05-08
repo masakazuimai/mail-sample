@@ -136,7 +136,11 @@ $topics_options = [
         </div>
     </div>
     <footer>
-        <p>&copy; <?php echo date('Y'); ?> CodeQuest.work</p>
+        <p>&copy; <?php echo date('Y'); ?> <a href="https://codequest.work/">CodeQuest.work</a></p>
+        <div class="footer-links">
+            <a href="https://seo.codequest.work/ja">SEO CHECKはこちら &rarr;</a>
+            <a href="https://codequest.work/category/generator/">その他のジェネレーター &rarr;</a>
+        </div>
     </footer>
 </body>
 
